@@ -1,0 +1,149 @@
+
+
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    
+}
+
+.user_section
+{   margin-top: .8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 1em;
+    
+    
+}
+
+.user_section img{
+    width:5.75em;
+    height: 5.75em;
+    border-radius: 100%;
+}
+
+/* post section */
+.post_section
+{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.post_btn
+{
+    display: block;
+    font-size: 20px;
+    padding: 7px 0;
+    font-weight: 400;
+    width: 80%;
+    border-radius: 8px;
+    margin: .5em auto;
+}
+
+.post_btn:active
+{
+    transform: scale(1.2);
+}
+
+.post_textarea
+{
+    width: 100%;
+    height: 5em;
+    border: 0;
+     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .25); 
+     padding: 1em;
+     resize: none;
+     border-radius: 8px;
+}
+.fetchpost_btn
+{
+    display: block;
+    font-size: 20px;
+    padding: 7px 0;
+    font-weight: 400;
+    width: 80%;
+    border-radius: 8px;
+    margin: .8em auto; 
+    background-color: #F6E27F;  
+}
+
+textarea::placeholder
+{
+    color: #747E79;
+    opacity: 1;
+}
+textarea:focus
+{
+    outline: none;
+}
+
+
+/* emoji section */
+.emoji-section
+{
+    display: inline-block;
+}
+.mood-emoji-btn +.mood-emoji-btn
+{
+    margin-left: 2em;
+}
+
+.mood-emoji-btn img{
+    width: 3.1em;
+    height:3.1em;
+}
+.mood-emoji-btn
+{
+    background-color:#424B54; 
+    border: none;
+}
+.mood-emoji-btn:hover {
+    cursor: pointer;
+}
+
+.mood-emoji-btn:active{
+    transform: scale(1.2);
+    opacity: 1;
+    
+}
+
+/* fetch section */
+
+#fetch_data
+{
+    
+    width: 100%;
+    border-radius: 2px;
+    padding: .8em;
+}
+.flex_post
+{
+    background-color:#E2C391;
+}
+
+.flex_item
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_post h3{
+    font-size: 1em;
+}
+.flex_post img{
+    width: 2em;
+    height: 2em;
+}
+
+.fetch_info
+{
+    margin-top: .5em;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}

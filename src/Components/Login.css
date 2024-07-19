@@ -1,0 +1,84 @@
+
+/* ---utility classes-- */
+.flex-row
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+    gap:1em
+}
+
+/* ------------- */
+h1{
+    margin-bottom: .5em;
+}
+body
+{
+    background-color: #424B54;  
+    
+}
+.container
+{
+    
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 100px 0;
+    font-size: 1.2em;
+
+}
+.login_container
+{
+    width: 450px;
+    margin: 0 auto; 
+    color: #fff;    
+}
+
+.btn,.input
+{
+  padding: 10px; 
+ outline: none;
+ border: none;
+ box-shadow:2px;
+}
+
+
+.btn{
+    border-radius: 20px;
+}
+
+
+.btn-secondary
+{
+    background-color:#E1CE7A;
+   
+    color: #fff;
+}
+.btn-primary
+{
+    background-color: #FFFEFC;;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .25);
+   
+}
+
+.btn-primary:hover
+{
+    transition: width 0.2s ease;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
+@media (max-width:390px)
+{
+    .login_container
+    {  
+        width: 250px;
+        font-size: 1em;   
+    }
+}
